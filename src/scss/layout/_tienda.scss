@@ -1,0 +1,64 @@
+.historias {
+    color: $colorFont;
+    font-family: Roboto;
+    padding-top: 34px;
+    padding-bottom: 10px;
+}
+
+.tienda {
+    
+    height: 376px;
+    margin-left: 13px;
+    gap:10px;
+} 
+
+.parrafo {
+   
+    color: $colorFont3 ;
+    padding-top: 20px;
+    padding-bottom: 52px;
+    width: 290px;
+    height: 181px;
+    margin: 10px 0 42px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: left;
+
+}
+
+.tutienda{
+        font-family: RobotoSlab;
+        font-size: 22px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+}
+
+.Comprar{
+    width: 125px;
+    color: $colorFont;
+    font-family: Roboto;
+    
+   
+
+}
+.divclass{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 160px;
+    height: 45px;
+    border-color: #6c933e;
+    display: inline-block;
+    border-radius: 22.5px ;
+    border: 2.5px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
