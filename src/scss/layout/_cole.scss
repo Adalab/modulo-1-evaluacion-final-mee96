@@ -1,13 +1,79 @@
 .fotoss {
     width: 100%;
+    border-radius: 50%;
+    box-shadow: 0px 5px 4px grey;
     
 }
 
 .vuelta-fotos { 
-    background-color: grey;
-    width: 300px;
+    width: 124.4px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
+    
+
+    
 }
 
 .cole {
-    background-color: burlywood;
+    background-color: #d9e4cc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
 }
+
+.empezar {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 184px;
+    height: 47.3px;
+    display: inline-block;
+    border-radius: 22.5px;
+    background-color: #6c933e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+
+}
+
+.botonempezar{
+
+    width: 125px;
+    font-size: 18px;
+    color: white;
+    font-family: Roboto;
+    
+}
+
+.preparalos {
+    color: $colorFont3;
+    font-family: $fontText1;
+    font-size: 12px;
+    padding-top: 18px;
+}
+
+.vueltaAlCole{
+font-family: $fontText1;
+font-size: 20px;
+}
+
+.tituloCole {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+}
+
+.div-foto-cole{
+    width: 100%;
+    gap: 5px;
+    font-size: 14x;
+    font-family: $fontText1;
+    text-align: center;
+
+}
+

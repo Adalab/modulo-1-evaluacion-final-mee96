@@ -1,10 +1,45 @@
 .hero{
-    
     width: 100%;
     height: 100vh;
-    background-image: url('/images/cover.jpeg');
-   
+    background-image: url('/images/cover.jpeg'); 
+    background-size: cover;
+    background-position: -700px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
     
 }
-.fotoprincipal{
+.titulos{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 350px;
+    gap: 50px;
+}
+.comienzos {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-family: $fontText1;
+}
+.p1 {
+    color: white;  
+    font-size: 16px;
+    font-family: $fontText2;
+    text-align: center;
+    
+}
+.scroll{
+    width: 38.2px;
+    height: 38.2px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
