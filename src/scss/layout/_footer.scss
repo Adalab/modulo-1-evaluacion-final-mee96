@@ -1,7 +1,6 @@
 footer {
     background-color: $colorFont3;
     height: 433px;
-    padding:27px;
     display: flex;
     gap: 27px;
     flex-direction: column;
@@ -27,4 +26,23 @@ footer {
     color: $colorFont4;
     font-family: $fontText2;
 
+}
+
+.arrow {
+
+    width: 45px;
+    border-radius: 50%;
+    background-color: $colorFont4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 2px 5px black;
+    position: relative;
+    top: -17px;
+    margin: 0 auto;
+    
+}
+.arrow img {
+   width: 20px;
+   height: 30px; 
 }
