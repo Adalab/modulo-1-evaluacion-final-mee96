@@ -17,7 +17,7 @@
 }
 
 .cole {
-    background-color: #d9e4cc;
+    background-color: $colorFont2;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -32,7 +32,7 @@
     height: 47.3px;
     display: inline-block;
     border-radius: 22.5px;
-    background-color: #6c933e;
+    background-color: $colorFont;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -76,4 +76,6 @@ font-size: 20px;
     text-align: center;
 
 }
-
+.categoria {
+    white-space: nowrap;
+}
