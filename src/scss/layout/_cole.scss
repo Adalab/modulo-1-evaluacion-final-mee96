@@ -11,10 +11,9 @@
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     gap: 20px;
-    
-
-    
 }
+
+
 
 .cole {
     background-color: $colorFont2;
@@ -79,3 +78,18 @@ font-size: 20px;
 .categoria {
     white-space: nowrap;
 }
+
+@media (min-width: 768px) {
+
+    .vuelta-fotos {
+        
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr ;
+        gap: 129px;
+        padding: 20px;
+    }
+}
+
+

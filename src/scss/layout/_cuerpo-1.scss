@@ -21,13 +21,13 @@
     gap: 50px;
 }
 .comienzos {
-    color: white;
+    color: $colorFont4;
     font-size: 30px;
     text-align: center;
     font-family: $fontText1;
 }
 .p1 {
-    color: white;  
+    color: $colorFont4;  
     font-size: 16px;
     font-family: $fontText2;
     text-align: center;
@@ -37,9 +37,27 @@
     width: 38.2px;
     height: 38.2px;
     border-radius: 50%;
-    background-color: white;
+    background-color: $colorFont4;
     display: flex;
     justify-content: center;
     align-items: center;
     
+}
+
+@media (min-width: 768px){
+    .hero {
+        
+        background-image: url('/images/cover.jpeg');
+        background-position: -250px;
+    }
+    .comienzos{
+        font-size: 75px;
+    }
+    .p1{
+        font-size: 24px;
+    }
+    .scroll{
+        width: 45px;
+        height: 45px;
+    }
 }

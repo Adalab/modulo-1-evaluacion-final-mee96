@@ -1,6 +1,6 @@
 .historias {
     color: $colorFont;
-    font-family: Roboto;
+    font-family: $fontText1;
     padding-top: 34px;
     padding-bottom: 10px;
     font-size: 14px;
@@ -43,7 +43,7 @@
     width: 125px;
     font-size: 20px;
     color: $colorFont;
-    font-family: Roboto;
+    font-family: $colorLink1;
     margin-left: 45px;
 }
 .divclass{
@@ -55,8 +55,29 @@
     display: inline-block;
     border-radius: 22.5px ;
     border: 2.5px solid;
-    border-color: #6c933e;
+    border-color: $colorFont;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media (min-width: 768px) {
+
+    .Comprar {
+            width: 160.4px;
+            height: 45.4;
+            margin-left: 80px;
+ 
+       }
+    .historias{
+        font-size: 16px;
+    
+    }
+    .tutienda{
+        font-size: 32px;
+    }
+    .parrafo{
+        font-size: 20px;
+         
+    }
 }
